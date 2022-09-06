@@ -1,0 +1,49 @@
+/* .navbar {
+    height: 55px;
+} */
+.nav_logo {
+    width: 120px;
+    height: 40px;
+}
+.terms {
+    color: #0070CC;
+    font-weight: 600;
+    font-size: 14px;
+}
+.Login_btn {
+    color: #0d6efd;
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+}
+.Logout_btn {
+    font-size: 18px;
+    font-weight: 500;
+    color: #0070CC;
+}
+.wallet_btn {
+    font-size: 14px;
+    color: #0070CC;
+}
+.user_name {
+    font-size: 18px;
+    font-weight: 500;
+    color: green;
+}
+.order_btn {
+    font-size: 14px;
+    color: #0070CC;
+    margin-right: 2px;
+}
+
+/* Media Queries */
+
+@media (max-width: 992px) {
+    .nav_links {
+        display: flex;
+        flex-direction: column;
+    }
+    .user_btn {
+        width: 18%;
+    }
+}

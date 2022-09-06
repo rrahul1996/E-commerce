@@ -1,0 +1,30 @@
+.shipping_details {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border: 1px solid #c2c2c2;
+    padding: 26px 50px;
+}
+.order_details {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border: 1px solid #c2c2c2;
+    padding: 26px 50px;
+}
+.name {
+    margin-top: 10px;
+}
+
+.place_order_btn button{
+    margin-top: 20px;
+    border: none;
+    background-color: #8bc9ac;
+    height: 35px;
+    padding: 6px 20px 6px 20px;
+    border-radius: 5px;
+}

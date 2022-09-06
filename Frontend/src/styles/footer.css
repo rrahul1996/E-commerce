@@ -1,0 +1,26 @@
+.footer {
+    margin-top: 100px;
+    color: white;
+    background-color: black;
+    bottom: 0px;
+}
+.footer_container {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    bottom: 0px;
+}
+.footer_content h4{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.footer_content p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+.footer_content {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}

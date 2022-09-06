@@ -1,0 +1,8 @@
++ Global error handling
++ Transaction and commit 
++ Validations and middleware
++ Redis queue background process
++ multer image upload
++ Socket.io
+
++ Models check Lucroso

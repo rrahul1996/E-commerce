@@ -1,0 +1,138 @@
+.containerPost {
+  margin-top: 6%;
+  margin-bottom: 5%;
+}
+
+.post-container {
+  display: flex;
+  justify-content: space-around;
+}
+.post-img {
+  width: 50%;
+}
+.postImgBox {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  object-fit: contain;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 3%;
+  margin-bottom: 0;
+}
+.post-desc {
+  display: flex;
+  flex-direction: column;
+}
+.desc {
+  font-size: 15px;
+  margin-left: 3%;
+  margin-bottom: 0;
+  /* margin-top: -10px; */
+  font-style: italic;
+}
+.price-tag {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  /* margin-top: -10px; */
+}
+.price {
+  margin-left: 3%;
+  /* margin-top: -10px; */
+  font-weight: bold;
+}
+.filters {
+  margin: 3%;
+  font-size: 30px;
+  font-style: italic;
+}
+#colorSelect {
+  width: 25%;
+  padding: 10px;
+  margin-left: 2%;
+  font-size: 20px;
+  font-weight: 600;
+}
+#sizeSelect {
+  width: 25%;
+  padding: 10px;
+  margin-left: 2%;
+  font-size: 20px;
+  font-weight: 600;
+}
+.addtocart {
+  display: flex;
+  margin: 3% ;
+  align-items: baseline;
+}
+.addtocartbtn {
+  padding: 10px 30px;
+  margin-top: 51px;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: rgb(230, 172, 66);
+  color: rgb(92, 132, 243);
+}
+.gotocartbtn {
+  padding: 10px 30px;
+  margin-top: 20%;
+  border: none;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: rgb(230, 172, 66);
+  color: rgb(92, 132, 243);
+}
+.descrese {
+  font-size: 20px;
+}
+
+.quantity {
+  display: flex;
+  margin: 25px 0 0 13px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.quantity button{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 0px 0 33px;
+  background-color: green;
+  border: none;
+}
+.addedbtn {
+  display: flex;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  background-color: rgb(230, 172, 66);
+  color: rgb(92, 132, 243);
+}
+
+/* media queries */
+
+@media (min-width : 340px) and  (max-width : 576px) {
+  .post-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 10%;
+    margin-right: 5%;
+  }
+  .post-desc {
+    margin-top: 30px;
+  }
+}
+
+@media (min-width : 576px) and (max-width : 768px) {
+ 
+}
+
+@media (min-width : 768px) and (max-width : 992px) {
+  
+}

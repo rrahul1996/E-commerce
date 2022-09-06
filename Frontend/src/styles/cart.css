@@ -1,0 +1,119 @@
+.cart_heading {
+    color: green;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+.cartWrapper {
+    margin-top: 50px;
+    width: 94%;
+    margin-left: 3%;
+}
+.cart_Card {
+    display: flex;
+    align-items: center;
+    background: #e1d5de;
+    height: 270px;
+}
+.card_right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 6%;
+}
+.cart_Card img {
+    width: 200px;
+    height: 200px;
+    margin-left: 5%;
+}
+.product_info {
+    margin-right: 18%;
+}
+.total_price {
+    margin-right: 18%;
+}
+.total_price span {
+    font-size: 20px;
+    font-weight: bold;
+}
+.quantity_change{
+    display: flex;
+    margin: 20px 0 0 0px;
+    width: 100%;
+    margin-right: 20%;
+}
+.quantity_change button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 0px 0 33px;
+    background-color: green;
+    border: none;
+    font-size: 18px;
+}
+.quantity_number {
+    margin: 0px 15px 0 15px;
+    border: 1px solid #c2c2c2;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.remove_btn {
+    background-color: orange;
+    margin-right: 20%;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.checkout_container {
+    width: 30%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 26px 17px;
+}
+
+.checkout_btn {
+    margin-top: 20px;
+}
+
+.checkout_btn button{
+    border: none;
+    background-color: #8bc9ac;
+    height: 35px;
+    padding: 6px 20px 6px 20px;
+    border-radius: 5px;
+}
+
+/* media queries */
+
+@media (min-width : 340px) and  (max-width : 576px) {
+    /* .product_info {
+        margin-bottom: 10px;
+    } */
+    .quantity_change {
+        margin-bottom: 10px;
+    }
+    .total_price  {
+        margin-bottom: 15px;
+    }
+    .card_right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 6%;
+    }
+  }
+  
+  @media (min-width : 576px) and (max-width : 768px) {
+   
+  }
+  
+  @media (min-width : 768px) and (max-width : 992px) {
+    
+  }
